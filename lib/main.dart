@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/ejemplo_appbar.dart';
+import 'package:myapp/rutafila.dart';
 
-/// Flutter code sample for [AppBar].
 
-void main() => runApp(const EjeAppBar());
+void main() => runApp(const MiAppFilasColumnas());
 
-class EjeAppBar extends StatelessWidget {
-  const EjeAppBar({super.key});
+class MiAppFilasColumnas extends StatelessWidget {
+  const MiAppFilasColumnas({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: MiAppBar(),
+      home: RutaFila(),
     );
   }
 }

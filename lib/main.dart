@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/homepage.dart';
+import 'package:myapp/mis_widgets.dart';
 
 void main() => runApp(const MiAppRutas());
 
@@ -13,7 +13,7 @@ class MiAppRutas extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown),
       ),
-      home: const HomePage(),
+      home: const MiWidgets(),
     );
   }
 }

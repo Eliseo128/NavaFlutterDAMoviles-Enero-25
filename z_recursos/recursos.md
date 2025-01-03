@@ -2,11 +2,4 @@
 
 
 - Referencias
-- [Ejemplo de layout](https://github.com/flutter/website/blob/main/examples/layout/lakes/interactive/lib/main.dart)
-
-- Es Flutter
-[Es Flutter Oficial](https://docs.flutter.dev/ui/layout/tutorial)
-
-
-salida
-![Layout 1](image.png)
+[La clinica GitHub](https://github.com/bahrie127/flutter_medical_ui.git)

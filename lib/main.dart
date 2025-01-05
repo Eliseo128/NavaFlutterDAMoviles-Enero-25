@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/pages/pagina_inicial.dart';
+import 'package:myapp/home.dart';
 
+void main() => runApp(const AppLavanderia());
 
-void main() => runApp(const AppLaClinica());
-
-class AppLaClinica extends StatelessWidget {
-  const AppLaClinica({super.key});
+class AppLavanderia extends StatelessWidget {
+  const AppLavanderia({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,8 +14,7 @@ class AppLaClinica extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown),
       ),
       debugShowCheckedModeBanner: false,
-      home: PaginaInicial(),
+      home: const PaginaInicial(),
     );
   }
 }
-
